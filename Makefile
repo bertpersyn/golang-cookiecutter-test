@@ -37,3 +37,8 @@ clean:
 test:
 	go test ./...
 
+docker-build: build
+	docker build -t $(BIN_NAME) -f Dockerfile .
+
+docker-run:
+	docker run --rm $(BIN_NAME)
