@@ -5,7 +5,7 @@ metadata:
   description: golang-cookiecutter-test
   annotations: 
     github.com/project-slug: bertpersyn/golang-cookiecutter-test
-    backstage.io/techdocs-ref: dir:./
+    backstage.io/techdocs-ref: github:https://github.com/bertpersyn/golang-cookiecutter-test
 spec:
   type: service
   lifecycle: experimental
