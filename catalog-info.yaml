@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: golang-cookiecutter-test
+  description: golang-cookiecutter-test
+  annotations: 
+    github.com/project-slug: bertpersyn/golang-cookiecutter-test
+spec:
+  type: service
+  lifecycle: experimental
+  owner: bertpersyn
